@@ -1,9 +1,9 @@
-#Criar Imagem
+# Criar Imagem
 docker build -t fmarcoll/godeploy:latest .
 
-#Rodar Imagem
+# Rodar Imagem
 docker run --rm -p 8080:8080 fmarcoll/godeploy:latest
 
-#Enviar Imagem para o DockerHub
+# Enviar Imagem para o DockerHub
 docker push fmarcoll/godeploy:latest
 
